@@ -1,2 +1,2 @@
 # lawn-gardener-project
-CAUTION: This is for learning. Dont't lie about your sincerity
+CAUTION: This is for learning. Don't lie about your sincerity
