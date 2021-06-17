@@ -313,3 +313,20 @@ End of gardener work
 [2021-06-17] The 2st misstion of the gardener
 [2021-06-17] The 3st misstion of the gardener
 End of gardener work
+[main 1bb7848] [2021-06-17] 1commit
+ Committer: root <root@hashlike.io>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 20 insertions(+)
+ mode change 100644 => 100755 gardenerScript.sh
+[2021-06-17] The 2st misstion of the gardener
