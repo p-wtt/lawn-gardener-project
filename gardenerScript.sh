@@ -14,9 +14,12 @@ do
   index=`expr $index + 1`
   echo "[$date] The ${index}st misstion of the gardener" >> ./gardenerLog.txt
 
+  GITPATH="/home/ubuntu/lawn-gardener-project"
+
+  cd $GITPATH
   git add . 
   git commit -m "[$date] ${index}commit"
-  git push
+  git push origin master
 done
 
 # step 4..end of gardener work
