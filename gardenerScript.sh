@@ -23,4 +23,4 @@ do
 done
 
 # step 4..end of gardener work
-echo "End of gardener work" >> ./gardenetLog.txt
+echo "End of gardener work" >> ./gardenerLog.txt
