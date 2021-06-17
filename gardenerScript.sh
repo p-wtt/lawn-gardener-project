@@ -19,7 +19,7 @@ do
   cd $GITPATH
   git add . 
   git commit -m "[$date] ${index}commit"
-  git push origin master
+  git push origin main
 done
 
 # step 4..end of gardener work
