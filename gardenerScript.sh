@@ -12,7 +12,7 @@ index=0
 while [ $index -lt $random_number ]
 do
   index=`expr $index + 1`
-  echo "[$date] The ${index}st mission of the gardener" >> /home/ubuntu/lawn-gardener-project/gardenerLog.txt
+  echo "[${index}/${random_number}] The ${index}st mission of the gardener" >> /home/ubuntu/lawn-gardener-project/gardenerLog.txt
 
   GITPATH="/home/ubuntu/lawn-gardener-project"
 
