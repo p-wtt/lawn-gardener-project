@@ -23,4 +23,4 @@ do
 done
 
 # step 4..end of gardener work
-echo "End of gardener work"
+echo "[$date] complete the ${index} tasks and exit the gardener's work." >> ./gardenerLog.log
