@@ -12,7 +12,7 @@ index=0
 while [ $index -lt $random_number ]
 do
   index=`expr $index + 1`
-  echo "[$date] The ${index}st misstion of the gardener"
+  echo "[$date] The ${index}st mission of the gardener" >> /home/ubuntu/lawn-gardener-project/gardenerLog.txt
 
   GITPATH="/home/ubuntu/lawn-gardener-project"
 
@@ -23,4 +23,4 @@ do
 done
 
 # step 4..end of gardener work
-echo "[$date] complete the ${index} tasks and exit the gardener's work." >> ./gardenerLog.log
+echo "[$date] complete the ${index} tasks and exit the gardener's work."
