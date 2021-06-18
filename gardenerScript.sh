@@ -1,7 +1,7 @@
 #!/bin/bash --login
 
 # step 1.. latest repository
-git pull origin main
+git pull
 
 # step 2.. create random number
 date=$(date "+%Y-%m-%d")
@@ -12,15 +12,15 @@ index=0
 while [ $index -lt $random_number ]
 do
   index=`expr $index + 1`
-  echo "[$date] The ${index}st misstion of the gardener" >> ./gardenerLog.txt
+  echo "[$date] The ${index}st misstion of the gardener"
 
   GITPATH="/home/ubuntu/lawn-gardener-project"
 
   cd $GITPATH
   git add . 
   git commit -m "[$date] ${index}commit"
-  git push origin main
+  git push
 done
 
 # step 4..end of gardener work
-echo "End of gardener work" >> ./gardenerLog.txt
+echo "End of gardener work"
