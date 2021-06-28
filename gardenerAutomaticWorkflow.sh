@@ -12,9 +12,11 @@ index=0
 while [ $index -lt $random_number ]
 do
   index=`expr $index + 1`
-
   echo "[${index}/${random_number}, $date] work is done" >> /home/ubuntu/lawn-gardener-project/dailyWorkRecord.txt
- 
+
+  GITPATH="/home/ubuntu/lawn-gardener-project"
+
+  cd $GITPATH
   git add .
   git commit -m "[$date] ${index}commit"
   git push
