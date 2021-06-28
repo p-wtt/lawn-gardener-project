@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash --login
 
 #step 1.. latest repository
 git pull
